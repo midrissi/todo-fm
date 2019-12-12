@@ -1,0 +1,19 @@
+{
+  "GENERATE_TASKS": {
+    "name": "Generate tasks on load",
+    "defaultValue": false,
+    "description": "Making this attribute as 'true' will generate 100 tasks on server bootstrap",
+    "scope": "todo",
+    "schema": {
+      "type": "boolean"
+    }
+  },
+  "GENERATE_TASK_COUNT": {
+    "name": "Number of tasks to generate",
+    "defaultValue": 100,
+    "scope": "todo",
+    "schema": {
+      "type": "number"
+    }
+  }
+}
